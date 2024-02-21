@@ -1,6 +1,8 @@
 <h1 align='center'> INSURE </h1>
 
-<h1><img</h1>
+<div>
+<img src="https://github.com/carineguzzi/Test-INSURE/assets/87284650/972e53b9-1d04-461b-85c6-f290cd1860ba"/>
+</div>
 
 <h2 align='center'><p> Building a website to train HTML and CSS. 👩‍🔧</p></h2>
 
@@ -16,10 +18,16 @@
 
 ## Images
 
-there is here a images this project:
+There is here a images this project:
 
 <div>
-<img src=''>
+<img src="https://github.com/carineguzzi/Test-INSURE/assets/87284650/972e53b9-1d04-461b-85c6-f290cd1860ba"/>
+</div>
+<div>
+<img src="https://github.com/carineguzzi/Test-INSURE/assets/87284650/8456c2fc-de81-44bb-82f4-a5109515be82"/> 
+</div>
+<div>
+<img src="https://github.com/carineguzzi/Test-INSURE/assets/87284650/8de4441f-b8f6-43ac-aa68-0b2a732c22ea"/>
 </div>
 
 
