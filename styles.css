@@ -6,29 +6,33 @@
     --very-Light-Gray: hsl(0, 0%, 98%);
 }
 
-
-
 body{
     margin: 0; /*first remove the margin*/
 }
 
 header{
-    background-color: white; /*create variables with colors on the website*/
     display:flex;
     align-items:center;
     justify-content: space-between;
 }
 
+nav a{
+    list-style: none;
+    text-decoration: none;
+
+}
+
 nav li {
+    text-decoration: none;
     color: var(--dark-Grayish-Violet);
     display:inline-block;
     margin: 20px 100px 20px 40px;    
 }
 
 main{
-    display:flex; 
-    background-size: cover;
-    background-color: var(--dark-Violet);
+    display:flex;
+    flex-direction: column; 
+
 }
 
 section{
@@ -36,10 +40,12 @@ section{
 }
 
 section h1{
+    color: var(--very-Light-Gray);
     font-size: 80px;
 }
 
 section p{
+    color: var(--very-Light-Gray);
     font-size: 21px;
 }
 
@@ -47,11 +53,11 @@ aside{
     position:absolute;
     top:310px;
     right: 230px;
-    width: 600px;
+    width: auto;
 }
 
-footer p{
-    display: inline-block;
+footer {
+    background-color: var(--very-Light-Gray);
     display: flex;
     justify-content: center; /* Alinha itens horizontalmente no centro */
     align-items: center; /* Alinha itens verticalmente no centro */
@@ -60,36 +66,27 @@ footer p{
 
 button{
 background-color: transparent;
-border: 2px solid #000; /* Cor da borda e largura desejada */
-color: #000; /* Cor do texto do botão */
+border: 2px solid var(--very-Light-Gray); /* Cor da borda e largura desejada */
+color: var(--very-Light-Gray); /* Cor do texto do botão */
 padding: 10px 20px; /* Espaçamento interno do botão */
 text-align: center; /* Alinhamento do texto */
-text-decoration: none; /* Remover sublinhado padrão */
-display: inline-block; /* Para que o botão se comporte como um bloco */
 font-size: 16px; /* Tamanho do texto */
 cursor: pointer; /* Alterar o cursor ao passar por cima */
 border-radius: 5px; /* Opcional: bordas arredondadas */
 }
 
 button:hover {
-    background-color: blue; /* Cor de fundo ao passar o mouse */
-    color: #ffffff; /* Cor do texto ao passar o mouse */
+    background-color: var(--grayish-Blue); /* Cor de fundo ao passar o mouse */
+    color: var(--very-Light-Gray); /* Cor do texto ao passar o mouse */
   } 
 
 .title{
     color: var(--very-Dark-Violet);
-    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 200px;
 }
 
-
-.border{
-    border: 0.5px solid black;
-}
-
 .block01{
-    display: flex;
     background-color: var(--dark-Violet);
 }
 
@@ -98,17 +95,34 @@ button:hover {
     width: 30%;
 }
 
+.half-line02{
+    border-top: 1px solid var(--dark-Grayish-Violet); 
+    width: 30%;
+
+}
+.title02{
+    color: var(--dark-Violet);
+}
+
 .line{
     display: flex;
-    margin: 150px 100px 70px 150px;
+    align-items: center;
+    margin: 0px 100px 70px 150px;
 }
 
 .item {
-    flex: 1;
-    margin-right: 20px;
+    color:var(--dark-Grayish-Violet);
+    flex: 10px;
+    align-items: center;
+    margin-right: 80px;
 }
 
+.item h3{
+    font-size: 30px;
+    color:var(--dark-Violet);
+}
 .container {
+
     height: 50vh; /* Altura total da viewport */
     display: flex;
     justify-content: center;
@@ -116,10 +130,19 @@ button:hover {
 }
 
 .box {
-    background-color: #f0f0f0; /* Cor de fundo da caixa */
+    align-items: center;
+    background-color: var(--dark-Violet); /* Cor de fundo da caixa */
     padding: 20px;
-    border-radius: 10px; /* Borda arredondada */
     width: 1000px; /* Largura da caixa */
     height: 200px; /* Altura da caixa */
 }
 
+.box h2{
+    font-size: 50px;
+    color: var(--very-Light-Gray);
+
+}
+
+.footer p{
+    color: var(--dark-Violet);
+}
